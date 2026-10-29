@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+# Guía del estudiante de Matemática
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Bienvenido. Esta página reúne recursos para estudiantes de pregrado de Matemática: libros organizados por área, consejos y material de estudio.
 
-## Commands
+!!! info "Proyecto estudiantil"
+    Este es un proyecto estudiantil independiente, no afiliado oficialmente a la Escuela Profesional de Matemática.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## ¿Qué encontrarás aquí?
 
-## Project layout
+- **[Libros](libros/algebra.md):** carpetas de Drive organizadas por área.
+- **Consejos:** recomendaciones para la carrera.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## ¿Quieres colaborar?
+
+Puedes aportar libros, correcciones o ideas en nuestro [repositorio de GitHub](https://github.com/matematicas-unsa/matematicas-unsa.github.io).
