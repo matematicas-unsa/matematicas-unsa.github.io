@@ -1,0 +1,30 @@
+site_name: Matemáticas UNSA - Guía del estudiante
+site_url: https://matematicas-unsa.github.io/
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+  palette:
+    - scheme: default
+      toggle: { icon: material/weather-night, name: Modo oscuro }
+    - scheme: slate
+      toggle: { icon: material/weather-sunny, name: Modo claro }
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Inicio: index.md
+  - Libros:
+      - Álgebra: libros/algebra.md
+      - Análisis: libros/analisis.md
